@@ -1,0 +1,35 @@
+:root {
+  --red: #ff6f69;
+  /*global scope*/
+  --white: #fff;
+  --beige: #ffeead;
+  --yellow: #ffcc5c;
+  --black: #000;
+  --blue_footer: #137DC6;
+}
+
+/*MAIN CSS SELEKTORS*/
+
+body {
+  background-color: var(--red);
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  color: var(--white);
+}
+
+footer {
+  background-color: var(--black);
+  color: var(--blue_footer);
+}
