@@ -1,17 +1,24 @@
 :root {
-  --red: #ff6f69;
   /*global scope*/
+  --red: #ff6f69;
   --white: #fff;
   --beige: #ffeead;
   --yellow: #ffcc5c;
   --black: #000;
   --blue_footer: #137DC6;
+
 }
 
 /*MAIN CSS SELEKTORS*/
 
+html,
 body {
   background-color: var(--red);
+  color: var(--yellow);
+}
+
+p {
+  color: var(--yellow);
 }
 
 nav {
@@ -27,9 +34,33 @@ nav ul > li {
   list-style-type: none;
   display: inline-block;
   color: var(--white);
+  padding-left: 50px;
+}
+
+.grid:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.item {
+  --red: #f2aeae;
+  float: left;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid;
 }
 
 footer {
+  --yellow: #137DC6;
   background-color: var(--black);
-  color: var(--blue_footer);
+}
+
+.footer {
+  --yellow: #137DC6;
+}
+
+footer h2 {
+  text-align: center;
 }
