@@ -21,7 +21,11 @@ p {
 }
 
 nav {
+  --nav-text: #ccc;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 nav ul {
@@ -32,7 +36,7 @@ nav ul {
 nav ul > li {
   list-style-type: none;
   display: inline-block;
-  color: var(--white);
+  color: var(--nav-text);
   padding-left: 50px;
 }
 
