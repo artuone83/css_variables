@@ -20,6 +20,11 @@ p {
   color: var(--yellow);
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
 nav {
   --nav-text: #ccc;
   text-align: center;
@@ -40,6 +45,15 @@ nav ul > li {
   padding-left: 50px;
 }
 
+main {
+
+  text-align: center;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
 .grid:after {
   display: table;
   clear: both;
@@ -49,10 +63,11 @@ nav ul > li {
 .item {
   --red: #f2aeae;
   float: left;
-  width: 40%;
+  width: 44%;
   text-align: center;
   padding: 20px;
   border: 1px solid;
+  margin: 1%;
 }
 
 .item button {
