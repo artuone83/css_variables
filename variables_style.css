@@ -63,7 +63,7 @@ main {
 .item {
   --red: #f2aeae;
   float: left;
-  width: 44%;
+  width: 40%;
   text-align: center;
   padding: 20px;
   border: 1px solid;
